@@ -1,0 +1,21 @@
+/* Importing fonts from Google
+CSS to use to specify these families:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,00|Open+Sans');
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 48px
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
