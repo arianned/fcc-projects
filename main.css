@@ -6,22 +6,59 @@ font-family: 'Open Sans', sans-serif; */
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  font-size: 48px
+  font-size: 3em;
 }
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 1em;
+  min-width: 250px;
+}
+
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
+  
   font-weight: 600i;
   font-style: italic;
-  font-size: 32px
+  font-size: 2em;
 }
 
-p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
+img {
+  max-width: 75%;
+  display: block;
+  width: 75%;
+  height: auto;
+  margin: 0px auto;
 }
 
 figcaption {
-  font-family: 'Open Sans', sans-serif;
+  margin: 0.25em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+#tribute-info {
+  background-color: gainsboro;
+}
+
+ul {
+ 
+  margin: 0, auto;
+  text-align: left;
+}
+#headline {
+  margin-top: 2em;
+  padding-top: 1em;
+}
+
+li {
+  margin: 1em;
+}
+
+#outro {
+  font-weight: bold;
 }
