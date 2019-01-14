@@ -3,6 +3,7 @@ CSS to use to specify these families:
 font-family: 'Open Sans', sans-serif; */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600i,800');
+
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
@@ -16,9 +17,7 @@ html {
   min-width: 250px;
 }
 
-
 h2 {
-  
   font-weight: 600i;
   font-style: italic;
   font-size: 2em;
@@ -43,13 +42,18 @@ p {
 
 #tribute-info {
   background-color: gainsboro;
+  max-width: 50%;
+  min-width: 250px;
+  display: block;
+  margin: 0 auto;
 }
 
 ul {
- 
+
   margin: 0, auto;
   text-align: left;
 }
+
 #headline {
   margin-top: 2em;
   padding-top: 1em;
